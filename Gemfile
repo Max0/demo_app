@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 group :development do
-gem 'sqlite3', '1.3.5'
+	gem 'sqlite3', '1.3.5'
 end
 # Gems used only for assets and not required
 # in production environments by default.
@@ -13,5 +13,7 @@ gem 'uglifier', '1.2.3'
 end
 gem 'jquery-rails'
 group :production do
-gem 'pg', '0.12.2'
+	gem 'pg', '0.12.2'
 end
+gem 'execjs'
+gem 'therubyracer'
